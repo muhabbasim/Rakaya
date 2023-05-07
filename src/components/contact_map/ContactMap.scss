@@ -1,0 +1,33 @@
+.contact_map {
+    padding: 100px 20% 50px 20%;
+    background-color: var(--main-black);
+    background-image: url('../../upload/location.png');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+
+    height: 65vh;
+
+    h2 {
+        font-size: 30px;
+        color: lightgray;
+        margin-top: 100px;
+
+    }
+
+    span {
+        color: lightgray;
+        font-weight: 100;
+    }
+
+    .map {
+        margin-top: 50px;
+
+        padding: 0 20%;
+        position: absolute;
+        left: 0;
+        right: 0;
+    }   
+}

@@ -1,0 +1,41 @@
+.banner {
+    // height: 50vh;
+    // background-image: url('../../upload/banner3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .cta {
+        padding: 0 10%;
+        padding-top: 100px;
+        color: white;
+        width: 60%;
+
+        h1 {
+            font-size: 30px;
+            // color: lightgray;
+            color: var(--main2);
+
+        }
+
+        span {
+            display: block;
+            font-size: 30px;
+        }
+
+        button {
+            flex: 1;
+            border: none;
+            padding: 10px 25px;
+            color: white;
+            font-size: 16px;
+            // background-color: var(--main2);
+            background-color: transparent;
+            border: 2px solid var(--main2);
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+    }
+}

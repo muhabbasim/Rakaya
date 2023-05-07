@@ -1,0 +1,92 @@
+.services {
+    padding: 250px 10%;
+    // min-height: 600px;
+    background-color: var(--main-black);
+
+    .title {
+        
+        h2 {
+            color: var(--gray);
+            font-size: 30px;
+            margin: 0;
+            border-top: 3px solid var(--main2);
+            width: 190px;
+            padding-top: 10px;
+        }
+
+        span {
+            display: block;
+            margin-bottom: 10px;
+
+        }
+        
+    }
+    
+    .container {
+        margin-top: 80px;
+        height: 100%;
+        width: 100%;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+        
+        .card {
+            background-color: var(--gray2);
+            width: 200px;
+            height: 220px;
+            padding: 20px;
+            cursor: pointer;
+            transition: .5s all ease;
+
+            .services-icon {
+                color: var(--main2);
+                transition: .5s all ease;
+
+            }
+            
+            h3 {
+                margin: 10px 0;
+                color: white;
+            }
+
+            span {
+                color: gray;
+                transition: .5s all ease;
+                font-weight: 100;
+
+            }
+
+            .more {
+                gap: 10px;
+                color: white;
+                justify-content: end;
+                transform: translateY(40px);
+                margin-top: 10px;
+                transition: .5s all ease;
+                opacity: 0;
+
+            }
+        }
+
+        .card:hover {
+            background-color: var(--main2);
+            transform: scale(1.2);
+            // margin: 10px;
+        }
+
+        .card:hover span {
+            color: black;
+        }
+        .card:hover .services-icon {
+            color: var(--primary);
+            color: white ;
+        }
+        .card:hover .more {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+
+        
+    }
+}

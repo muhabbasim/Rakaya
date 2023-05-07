@@ -1,0 +1,67 @@
+.partners {
+
+    padding: 0px 10%;
+    // background-color: var(--fail);
+    background-color: white;
+    border-radius: 2px;
+    margin: 0px 10%;
+    margin-top: -60px;
+    padding: 40px;
+    justify-content: space-around;
+    box-shadow: var(--box-shadow);
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    background-image: url('../../upload/banner3.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    flex-wrap: wrap;
+
+    .title {
+        position: absolute;
+        top: -190px;
+        right: 0;
+        max-width: 450px;
+        text-align: end;
+
+        h2 {
+            color: var(--fail);
+            font-size: 30px;
+            margin-bottom: 10px;
+            border-right: 3px solid var(--main2);
+            padding-right: 10px;
+
+        }
+
+        span {
+            color: gray;
+            font-weight: 100;
+
+        }
+    }
+
+    .item {
+        flex-direction: column;
+        gap: 10px;
+        cursor: pointer;
+        color: white;
+
+        img {
+            width: 50px;
+            // filter: grayscale(50%);
+            // filter: sepia(100%);
+            opacity: .8;
+        }
+        
+    }
+
+    .line {
+        width: 1px;
+        height: 60px;
+        background-color: var(--gray);
+    }
+}

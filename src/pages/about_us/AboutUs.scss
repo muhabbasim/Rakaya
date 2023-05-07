@@ -1,0 +1,203 @@
+.about_us {
+    .banner_container {
+        padding: 0 10%;
+
+    }
+
+    .brand_core {
+        padding: 20px 18%;
+        height: 60vh;
+
+        margin-bottom: 100px;
+        
+        .taps {
+            margin-top: 20px;
+            // justify-content: space-around;
+            
+            .tap {
+                flex: 1;
+                background-color: transparent;
+                color: gray;
+                border: none;
+                font-size: 20px;
+                padding: 30px;
+                cursor: pointer;
+            }
+
+            .active_tap {
+                border-top: 3px solid var(--main2);
+            }
+        }
+
+        .core {
+            gap: 20px;
+            margin-top: 200px;
+            align-items: start;
+
+            h2 {
+                flex: 1;
+                color: black;
+                font-size: 30px;
+                margin-top: -100px;
+            }
+
+            p {
+                flex: 1;
+                color: gray;
+                font-size: 18px;
+                font-weight: 200;
+                margin: 0;
+            }
+        }
+    }
+
+    // .attributes {
+    //     min-height: 100vh;
+    //     background-color: var(--main-black);
+    //     // padding: 10%;
+
+    //     justify-content: space-around;
+
+
+    //     .shape2 {
+    //         height: 200px;
+    //         width: 100%;
+    //         background-color: lightgray;
+    //         position: absolute;
+    //         left: 0;
+    //         right: 0;
+    //         top: 150px;
+    //         z-index: -1;
+    //     }
+
+    //     .shape3 {
+    //         height: 300px;
+    //         width: 100%;
+    //         background-color: lightgray;
+    //         position: absolute;
+    //         left: 500px;
+    //         // right: 0;
+    //         top: 110%;
+    //         z-index: -1;
+    //     }
+
+    //     .attributes_container {
+    //         position: relative;
+    //         flex-direction: column;
+    //         gap: 100px;
+    //         margin-left: 200px;
+            
+    //         .item {
+    //             position: relative;
+
+    //             .content {
+    //                 background-color: rgba(128, 128, 128, 0.302);
+    //                 padding: 30px;
+    //                 position: absolute;
+    //                 left: -200px;
+    //                 max-width: 350px;
+    //                 color: white;
+
+    //                 h2 {
+    //                     color: var(--main2);
+    //                 }
+    //             }
+
+    //             img {
+    //                 max-width: 500px;
+    //                 height: auto;
+    //                 object-fit: cover;
+    //             }
+    //         }
+    //     }
+
+    // }
+
+    .attributes {
+        height: 140vh;
+        background-color: var(--main-black);
+        margin: 0 10%;
+
+        .shape2 {
+            height: 200px;
+            width: 100%;
+            background-color: lightgray;
+            position: absolute;
+            left: 0;
+            right: 0px;
+            top: 150px;
+            z-index: -1;
+        }
+
+        .shape3 {
+            height: 300px;
+            width: 100%;
+            background-color: lightgray;
+            position: absolute;
+            left: 500px;
+            // right: 0;
+            top: 110%;
+            z-index: -1;
+        }
+
+        .attributes_container {
+            padding: 20%;
+            flex-direction: column;
+            gap: 100px;
+            
+            .item {
+                justify-content: space-around;
+                gap: 50px;
+               
+
+                .content {
+                    flex: 1;
+                    min-width: 250px;
+
+                    // background-color: rgba(211, 211, 211, 0.029);
+                    // padding: 30px;
+
+                    h2 {
+                        color: var(--main2);
+                    }
+                    
+                    p {
+                        color: lightgray;
+                        font-weight: 200;
+
+                    }
+                }
+
+                .line {
+                    width: 1px;
+                    height: 250px;
+                    background-color: rgba(211, 211, 211, 0.137);
+                }
+
+                .visual {
+                    flex: 1;
+                    min-width: 300px;
+
+                    img {
+                        width: 100%;
+                        min-height: 400px;
+                        object-fit: cover;
+                    }
+                }
+
+                
+            }
+
+            .line2 {
+                width: 80%;
+                height: 2px;
+                background-color: rgba(211, 211, 211, 0.137);
+            }
+        }
+    }
+
+    .attributes_second {
+        height: 30vh;
+        background-color: white;
+    }
+}

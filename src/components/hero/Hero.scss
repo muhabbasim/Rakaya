@@ -1,0 +1,42 @@
+.hero {
+    background-image: url('../../upload/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding: 0 10%;
+    // margin-bottom: 200px;
+    
+    .cta {
+        padding-top: 100px;
+        color: white;
+        width: 60%;
+
+        h1 {
+            font-size: 50px;
+            color: lightgray;
+
+        }
+
+        span {
+            display: block;
+            font-size: 30px;
+        }
+
+        button {
+            flex: 1;
+            border: none;
+            padding: 10px 25px;
+            color: white;
+            font-size: 16px;
+            // background-color: var(--main2);
+            background-color: transparent;
+            border: 2px solid var(--main2);
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+    }
+
+
+
+}
